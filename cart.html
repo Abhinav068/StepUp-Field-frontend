@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="icon" type="image/x-icon" href="image/logoAsset 3@4x-8.png">
+    <link rel="stylesheet" href="SRC CSS/cart.css">
+    <link rel="stylesheet" href="SRC CSS/navbar.css">
+    <link rel="stylesheet" href="SRC CSS/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Start Navbar code Here -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- End Navbar code here -->
+
+    <h2 id="no">Your Cart (<span id="count">0</span> Items)</h2>
+
+
+    <div id="cont">
+
+        <div id="empty">
+
+        </div>
+        <div id="summary">
+            <h2>Order Summary</h2>
+            <div id="sub">
+                <h3>Subtotal</h3>
+                <h3 id="total">₹0</h3>
+            </div>
+            <div id="sub">
+                <h3>Shipping</h3>
+                <h3>Free</h3>
+            </div>
+            <br>
+            <hr>
+
+            <div id="sub">
+                <h3>Estimated Total</h3>
+                <h3><span>₹</span><span id="amount">0</span></h3>
+            </div><br>
+
+            <p style="color: grey;"> Do you have any coupon code? Apply.</p><br>
+            <div id="coupon">
+                <input type="text" id="inp" placeholder="Enter Coupon Code" style="width: 60%;height: 25px;">
+                <span id="app"
+                    style="border: 1px solid black; color: white;background-color: rgb(73, 73, 73);font-weight: 100;padding: 5px 10px; cursor: pointer;">Submit</span>
+            </div>
+
+            <br><br>
+
+            <div id="extra">
+                <img src="./SRC Image/plcc-double.webp" alt="">
+                <p><span style="color:rgb(235, 19, 55);">Enjoy 20% OFF Today*</span> on your first purchase with the
+                    FAMOUSLY YOU REWARDS® Credit Card at time of account opening.</p>
+            </div><br>
+
+            <a href="checkout.html"><button id="check">CHECKOUT</button></a>
+
+        </div>
+    </div>
+
+    <!-- ---------------------------------------------------------- -->
+
+    <h2>Recommended For You</h2>
+    <a href="product.html">
+        <div id="con7">
+            <div>
+                <div> <img src="./SRC Image/24.avif" alt=""></div>
+                <h3>SKETCHERS</h3>
+                <p>Kids Heart Lights light up <br> Sneaker Little/Big Kid</p>
+
+                <p>₹1999.99</p>
+
+            </div>
+            <div>
+                <div> <img src="./SRC Image/25.avif" alt=""></div>
+                <h3>HEYDUDE</h3>
+                <p>Men's Wally Sox<br>Medium/Wide Casual Shoe</p>
+
+                <p>₹1099</p>
+
+            </div>
+            <div>
+                <div> <img src="./SRC Image/28.avif" alt=""></div>
+                <h3>NIKE</h3>
+                <p>Women's Legend Essential<br>Training Shoe </p>
+
+                <p>₹1999.99</p>
+
+            </div>
+            <div>
+                <div> <img src="./SRC Image/27.avif" alt=""></div>
+                <h3>HEYDUDE</h3>
+                <p>Men's Wally Sox<br>Medium/Wide Casual Shoe</p>
+
+                <p>₹1999.99</p>
+
+            </div>
+            <div>
+                <div> <img src="./SRC Image/26.avif" alt=""></div>
+                <h3>NIKE</h3>
+                <p>Women's Air Max Excee<br>Sneaker</p>
+
+                <p>₹1999.99</p>
+
+            </div>
+        </div>
+    </a>
+
+    <!-- ------------------------------------------------ -->
+    <div id="con10">
+        <div>
+            <p>Sign up for special offers & trend updates</p>
+        </div>
+        <div>
+            <input type="email" name="" id="" placeholder="Email">
+            <button>SIGN UP</button>
+        </div>
+    </div>
+
+
+
+    <hr><br><br><br>
+
+
+
+
+    <!-- footer code -->
+    <div id="footer-placeholder"></div>
+
+</body>
+<script src="SRC JS/cart.js"></script>
+<!-- <script src="SRC JS/navbar.js"></script> -->
+<script>
+    $(function () {
+        $("#navbar-placeholder").load("navbar.html");
+    });
+</script>
+
+<script>
+    $(function () {
+        $("#footer-placeholder").load("footer.html");
+    });
+</script>
+
+</html>

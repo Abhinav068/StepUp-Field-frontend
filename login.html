@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" type="image/x-icon" href="image/logoAsset 3@4x-8.png">
+    <link rel="stylesheet" href="SRC CSS/login.css">
+    <link rel="stylesheet" href="SRC CSS/navbar.css" />
+    <link rel="stylesheet" href="SRC CSS/footer.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+</head>
+
+<body>
+
+    <!-- Start Navbar code Here -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- End Navbar code here -->
+
+    <div id="biggMain">
+
+        <div id="main11">
+
+            <form id="login-form">
+                <div id="topWords">
+                    <h1 id="createaccount">Log in to your Account</h1>
+
+                </div>
+
+
+
+
+                <h2>Email Address* </h2>
+                </label>
+                <input id="email" type="email" />
+
+                <p id="wrong_email"></p>
+                <label>
+                    <h2>Password*</h2>
+                </label>
+                <input id="password" type="password" placeholder="*******" />
+                <label>
+
+
+                    <p id="wrong_password"></p>
+
+
+                    <p id="login_successful"></p>
+                    <input type="submit" id="button" value="LOG IN" />
+                    <p id="bottom-line-login-now">Don't have an account? <a href="signup.html">Create here</a></p>
+
+                    <div id="bottom">
+                        <h2>Or Log in With</h2>
+                        <img src="SRC Image/image.png" alt="">
+                        <a href="/auth/facebook"><button>Continue with FACEBOOK</button></a>
+                    </div>
+            </form>
+
+            <a href="/auth/google">Login with Google</a>
+        </div>
+        <div id="imgSignin">
+
+            <img src="https://www.famousfootwear.com/-/media/project/tenant/famous-footwear/famous-footwear/homepage/2023/spring/1-story/wk3_021223_hp_right_loafers.jpg"
+                alt="">
+        </div>
+    </div>
+
+
+
+    <!-- footer code start from here -->
+    <div id="footer-placeholder"></div>
+
+    <!-- footer code end here -->
+
+</body>
+<script src="SRC JS/login.js"></script>
+<!-- <script src="SRC JS/navbar.js">-->
+
+<script>
+    $(function () {
+        $("#navbar-placeholder").load("navbar.html");
+    });
+</script>
+
+
+<script>
+    $(function () {
+        $("#footer-placeholder").load("footer.html");
+    });
+</script>
+
+
+</html>

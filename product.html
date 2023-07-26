@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="SRC CSS/product.css">
+    <link rel="stylesheet" href="SRC CSS/footer.css" />
+    <link rel="stylesheet" href="SRC CSS/navbar.css" />
+    <link rel="icon" type="image/x-icon" href="image/logoAsset 3@4x-8.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+
+    <!-- Start Navbar code Here -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- End Navbar code here -->
+
+    <div id="product-container">
+
+
+    </div>
+
+
+    <h2 class="review">Reviews</h2>
+    <div id="reviewContainer">
+        <img src="https://media1.giphy.com/media/vbeNMLuswd7RR25lah/giphy.gif?cid=ecf05e4798ygozdpl6falk76ie7edtanuf9c08x6kvyplo5j&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+            class="imgload" alt="loading">
+        <div id="ratingchart">
+            <!-- <div>
+                <span>5 stars</span> &ensp;
+                <progress value="65" max="100" id='myprg1'
+                    style="border: 1px solid green; border-radius: 5px; height: 10px;" />
+            </div> -->
+
+            <!-- <div>
+                <span>5 stars</span> &ensp;
+                <meter id="star5" value="0.5">60%</meter> <span>abc3</span>
+            </div>
+            <div>
+                <span>2 stars</span> &ensp;
+                <progress value="65" max="100" id='myprg4'
+                    style="border: 1px solid green; border-radius: 5px; height: 10px;" />
+            </div>
+            <div>
+                <span>1 stars</span> &ensp;
+                <progress value="65" max="100" id='myprg5'
+                    style="border: 1px solid green; border-radius: 5px; height: 10px;" />
+            </div> -->
+
+        </div>
+        <div id="ratings">
+            <!-- <h3>Overall Ratings</h3>
+            <p>
+                <span>4.2</span> <span>
+                    <span class="fa fa-star checked" style="font-size:25px"></span>
+                    <span class="fa fa-star checked" style="font-size:25px"></span>
+                    <span class="fa fa-star checked" style="font-size:25px"></span> 
+                    <span class="fa fa-star checked" style="font-size:25px"></span>
+                    <i class="fa fa-star-half-full checked" style="font-size:25px"></i>
+                </span>
+            </p>
+            <p>5 Reviews</p> 
+            <span class="fa fa-star"></span> -->
+
+        </div>
+        <div class="box" id="boxid">
+            <a href="#divOne" onclick="checklogin()" class="button">Write a Review</a>
+        </div>
+        <div class="overlay" id="divOne">
+            <div class="wrapper">
+                <h2>Please fill up the form</h2>
+                <a href="#boxid" class="close">&times;</a>
+                <div class="content">
+                    <div class="container">
+                        <form>
+                            <label>Review Title</label>
+                            <input type="text" id="rvtitle" placeholder="write a title for your review" required> <br>
+                            <label for="rating">Ratings</label>
+                            <select id="rating" required>
+                                <option value="">Give ratings</option>
+                                <option value="5">&ensp; 5</option>
+                                <option value="4">&ensp; 4</option>
+                                <option value="3">&ensp; 3</option>
+                                <option value="2">&ensp; 2</option>
+                                <option value="1">&ensp; 1</option>
+                            </select> <br> <br>
+                            <label>Your Review</label>
+                            <textarea id="rvdes" placeholder="describe your thoughts..."></textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="userreviews">
+        <!-- <img src="https://media1.giphy.com/media/vbeNMLuswd7RR25lah/giphy.gif?cid=ecf05e4798ygozdpl6falk76ie7edtanuf9c08x6kvyplo5j&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+            class="imgload" alt="loading"> -->
+
+        <!-- <div class="reviewcard">
+            <span>Username</span> <br>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span>Title</span>
+            <p> Description </p>
+            <span>Date</span>
+            <button onclick="deleteComment(e)">Delete</button>
+        </div> -->
+        <!-- <i class="fa fa-star-half-full" style="font-size:24px"></i> -->
+    </div>
+
+    <!-- bottom part of product section where other shoes are shown for recommendation -->
+
+    <a href="menu.html">
+        <div id="con7">
+            <div>
+                <div> <img src="./SRC Image/24.avif" alt=""></div>
+                <h3 style="color: blue;">New</h3>
+                <h3>SKETCHERS</h3>
+                <p>Kids Heart Lights light up <br> Sneaker Little/Big Kid</p>
+
+                <p>₹1499.99</p>
+
+            </div>
+            <div>
+                <div> <img src="./SRC Image/25.avif" alt=""></div>
+                <h3 style="color: blue;">New</h3>
+                <h3>HEYDUDE</h3>
+                <p>Men's Wally Sox<br>Medium/Wide Casual Shoe</p>
+
+                <p>₹1999.99</p>
+
+            </div>
+            <div>
+                <div> <img src="./SRC Image/28.avif" alt=""></div>
+                <h3 style="color: blue;">New</h3>
+                <h3>NIKE</h3>
+
+                <p>Women's Legend Essential<br>Training Shoe </p>
+
+
+                <p>₹1799.99</p>
+
+            </div>
+            <div>
+                <div> <img src="./SRC Image/27.avif" alt=""></div>
+                <h3 style="color: blue;">New</h3>
+                <h3>HEYDUDE</h3>
+                <p>Men's Wally Sox<br>Medium/Wide Casual Shoe</p>
+
+                <p>₹1999.99</p>
+
+            </div>
+            <div>
+                <div> <img src="./SRC Image/26.avif" alt=""></div>
+                <h3 style="color: blue;">New</h3>
+                <h3>NIKE</h3>
+                <p>Women's Air Max Excee<br>Sneaker</p>
+
+                <p>₹999</p>
+
+            </div>
+        </div>
+    </a>
+
+
+    <!-- abover footer code starts here -->
+    <div id="con10">
+        <div>
+            <p>Sign up for special offers & trend updates</p>
+        </div>
+        <div>
+            <input type="email" name="" id="" placeholder="Email">
+            <button>SIGN UP</button>
+        </div>
+    </div>
+
+    <hr style="width: 100%; margin-bottom: 50px;">
+
+
+
+
+    <!-- footer code start from here -->
+    <div id="footer-placeholder"></div>
+
+    <!-- footer code end here -->
+
+</body>
+
+<script src="SRC JS/product.js"></script>
+<!-- <script src="SRC JS/navbar.js"></script> -->
+<script>
+    $(function () {
+        $("#navbar-placeholder").load("navbar.html");
+    });
+</script>
+<script>
+
+    $(function () {
+        $("#footer-placeholder").load("footer.html");
+    });
+</script>
+
+
+</html>
