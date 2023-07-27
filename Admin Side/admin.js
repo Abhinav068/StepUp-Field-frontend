@@ -47,7 +47,7 @@ function displayCards() {
 
 async function countData() {
   try {
-    let api_data = await fetch(`${url}beverage`, {
+    let api_data = await fetch(`${url}/products`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
