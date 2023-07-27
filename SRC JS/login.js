@@ -103,7 +103,7 @@ async function loginUser() {
     loginUserPassword.value == "admin"
   ) {
     if (loginUserToken == false) {
-      location.href = "../frontend/Admin Side/admin.html";
+      location.href = "./Admin Side/admin.html";
     } else {
       alert("Please sign out before logging as Admin");
     }
