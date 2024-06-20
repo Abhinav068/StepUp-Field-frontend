@@ -1,5 +1,5 @@
 // const url = `https://63c77a71e52516043f3eaecd.mockapi.io/`;
-const url = `https://fluffy-pantyhose-toad.cyclic.app`;
+const url = `https://stepup-field.onrender.com`;
 let sidebar = document.querySelector(".sidebar");
 let sidebarBtn = document.querySelector(".sidebarBtn");
 sidebarBtn.onclick = function () {

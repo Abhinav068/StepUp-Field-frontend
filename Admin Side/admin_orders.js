@@ -1,5 +1,5 @@
 // let URL = `http://localhost:8000`;
-let URL = `https://fluffy-pantyhose-toad.cyclic.app`;
+let URL = `https://stepup-field.onrender.com`;
 let sidebar = document.querySelector(".sidebar");
 let sidebarBtn = document.querySelector(".sidebarBtn");
 sidebarBtn.onclick = function () {
