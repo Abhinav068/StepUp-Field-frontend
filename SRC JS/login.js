@@ -6,7 +6,7 @@ let loginUserToken = JSON.parse(localStorage.getItem("loginUser")) || false;
 console.log(loginUserToken, "loginUserToken");
 let login_name = JSON.parse(localStorage.getItem("login_name")) || [];
 // let URL = `http://localhost:8000`;
-let URL = `https://fluffy-pantyhose-toad.cyclic.app`;
+let URL = `https://stepup-field.onrender.com`;
 loginUserform.addEventListener("submit", (e) => {
   e.preventDefault();
   //login box border red if empty

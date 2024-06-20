@@ -1,6 +1,6 @@
 let productdata = JSON.parse(localStorage.getItem("product")) || null;
 let cartData = JSON.parse(localStorage.getItem("productsAdd")) || [];
-let URL = `https://fluffy-pantyhose-toad.cyclic.app`;
+let URL = `https://stepup-field.onrender.com`;
 // let URL = `http://localhost:8000`;
 //cart item count start
 let productcounts = localStorage.getItem("productcounts") || 0;

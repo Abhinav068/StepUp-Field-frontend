@@ -9,7 +9,7 @@ let registerUserEmail = document.getElementById("email");
 let registerUserPassword = document.getElementById("password");
 let registerUserbirthDay = document.getElementById("birthDay");
 let registerUserphoneNo = document.getElementById("phoneNo");
-let URL = `https://fluffy-pantyhose-toad.cyclic.app`;
+let URL = `https://stepup-field.onrender.com`;
 // let URL = `http://localhost:8000`;
 registerUserform.addEventListener("submit", (e) => {
   e.preventDefault();

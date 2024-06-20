@@ -15,7 +15,9 @@ bagcount.textContent = productcounts;
 let estimatedtotal = document.getElementById("estimatedtotal");
 let productcard = document.getElementById("summeryproduct");
 let zipdoller = document.getElementById("zipdoller");
-let URL = `https://fluffy-pantyhose-toad.cyclic.app`;
+// let URL = `https://fluffy-pantyhose-toad.cyclic.app`;
+let URL = `https://stepup-field.onrender.com`;
+
 // let URL = `http://localhost:8000`;
 // product append
 appendproduct(products);
